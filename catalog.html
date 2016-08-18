@@ -39,8 +39,9 @@
 
 			<div class="main-content">
 					<div class="filter">
-						<aside class="brands-filter">
-							<h2>производители</h2>
+            <form action="#">
+						<fieldset class="brands-filter">
+							<legend>производители</legend>
 							<div class="brands">
 								<label><input type="checkbox" checked><span>baxter of california</span></label>
 							</div>
@@ -59,10 +60,10 @@
 							<div class="brands">
 								<label><input type="checkbox" checked><span>american crew</span></label>
 							</div>
-						</aside>
+						</fieldset>
 
-						<aside class="goods-toolbar">
-							<h2>Группы товаров</h2>
+						<fieldset class="goods-toolbar">
+							<legend>Группы товаров</legend>
 							<div>
 								<label><input type="radio" name = "filter" value = "1"><span>Бритвенные принадлежности</span></label>
 							</div>
@@ -72,58 +73,84 @@
 							<div>
 								<label><input type="radio" name = "filter" value = "3"><span>Аксессуары</span></label>
 							</div>
-						</aside>
+						</fieldset>
+              <button type = "submit" class = "btn filter-btn">Показать</button>
+            </form>
 					</div>
 
-					<button>Показать</button>
 
-					<div class="goods">
-						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар1">
-							   <span>Набор для путешествий</span>
-							   <span>"baxter of california"</span>
+
+					<div class = "goods">
+						<div class = "goods-item">
+							<a href = "#">
+                <img src="http://placehold.it/200x200" alt="товар1">
+              </a>
+              <a href = "#">
+                <span>Набор для путешествий</span>
+                <span>"baxter of california"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
 						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар2">
-								<span>Набор для путешествий</span>
+              <a href = "#">
+                <img src="http://placehold.it/200x200" alt="товар2">
+              </a>
+              <a href="#">
+                <span>Набор для путешествий</span>
 								<span>"baxter of california"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
 						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар3">
-								<span>Увлажняющий кондиционер</span>
+              <a href="#">
+                <img src="http://placehold.it/200x200" alt="товар3">
+              </a>
+              <a href="#">
+                <span>Увлажняющий кондиционер</span>
 								<span>"baxter of california"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
 						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар4">
-								<span>Гель для волос</span>
+              <a href="#">
+                <img src="http://placehold.it/200x200" alt="товар4">
+              </a>
+              <a href="#">
+                <span>Гель для волос</span>
 								<span>"suavecito"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
 						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар5">
-								<span>Глина для укладки волос</span>
+              <a href="#">
+                <img src="http://placehold.it/200x200" alt="товар5">
+              </a>
+              <a href="#">
+                <span>Глина для укладки волос</span>
 								<span>"american crew"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
 						<div class="goods-item">
-							<img src="http://placehold.it/200x200" alt="товар6">
-								<span>Глина для укладки волос</span>
+              <a href="#">
+                <img src="http://placehold.it/200x200" alt="товар6">
+              </a>
+              <a href="#">
+                <span>Глина для укладки волос</span>
 								<span>"american crew"</span>
+              </a>
 							<div class = "order"><span class = "order-price">9 999 руб.</span><a class = "btn btn-order">Купить</a></div>
 						</div>
 
-						<div class="page-switchers">
-							<a href="#">1</a>
-							<a href="#">2</a>
-							<a>3</a>
+						<div class="pagination">
+							<a href = "#">1</a>
+							<a>2</a>
+							<a href = "#">3</a>
 							<a href="#">4</a>
 						</div>
 					</div>
