@@ -12,13 +12,23 @@
 							<img src="http://placehold.it/200x200" alt="Barbershop">
 						</a>
 					</div>
-					<nav class="main-navigation">
-						<ul>
-						  <li><a href="#">Информация</a></li>
-						  <li><a href="#">Новости</a></li>
-							<li><a href="#">Прайст-лист</a></li>
-							<li><a>Магазин</a></li>
-							<li><a href="#">Контакты</a></li>
+					<nav class="main-nav">
+						<ul class="main-nav__list">
+						  <li class="main-nav__item">
+	              <a href="#">Информация</a>
+	            </li>
+						  <li class="main-nav__item">
+	              <a href="#">Новости</a>
+	            </li>
+							<li class="main-nav__item">
+	              <a href="#">Прайст-лист</a>
+	            </li>
+							<li class="main-nav__item">
+	              <a>Магазин</a>
+	            </li>
+							<li class="main-nav__item">
+	              <a href="#">Контакты</a>
+	            </li>
 						</ul>
 					</nav>
 					<div class="user-block">
@@ -30,45 +40,53 @@
 		<h1>Набор для путешествий "Baxter of california"</h1>
 
 		<div class="breadcrumbs">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Средства для ухода</a></li>
-					<li><a>Набор для путешествий "Baxter of california"</a></li>
+				<ul class="breadcrumbs__list">
+					<li class="breadcrumbs__item">
+						<a class="breadcrumbs__link" href="#">Главная</a>
+					</li>
+					<li class="breadcrumbs__item">
+						<a class="breadcrumbs__link" href="#">Магазин</a>
+					</li>
+					<li class="breadcrumbs__item">
+						<a class="breadcrumbs__link" href="#">Средства для ухода</a>
+					</li>
+					<li class="breadcrumbs__item">
+						<a class="breadcrumbs__link">Набор для путешествий "Baxter of california"</a>
+					</li>
 				</ul>
 		</div>
 
 		<div class="main-content">
 			<div class="item-view">
-				<div class="item-current">
+				<div class="item-view__current">
 					<img src="http://placehold.it/400x400" alt="item-current">
 				</div>
-				<div class="item-view-presentation">
-					<a href = "#" class="item-view-slide1">
+				<div class="item-view__presentation">
+					<a href = "#" class="item-view__slide1">
 						<img src="http://placehold.it/100x100" alt="item1">
 					</a>
-					<a href = "#" class="item-view-slide2">
+					<a href = "#" class="item-view__slide2">
 						<img src="http://placehold.it/100x100" alt="item2">
 					</a>
-					<a href = "#" class="item-view-slide3">
+					<a href = "#" class="item-view__slide3">
 						<img src="http://placehold.it/100x100" alt="item3">
 					</a>
 				</div>
 			</div>
-			<div class="item-description">
-				<div class="presence"><span>есть в наличии</span><span>ариткул:dexter-ae</span></div>
-				<p class="item-info">Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-				<div class = "order">
-					<span class = "order-price">2 900 руб.</span>
-					<a class = "btn btn-order">купить</a>
+			<div class="description">
+				<div class="description__presence"><span>есть в наличии</span><span>ариткул:dexter-ae</span></div>
+				<p class="description__info">Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+				<div class="order">
+					<span class="order-price">2 900 руб.</span>
+					<a class="btn btn-order">купить</a>
 				</div>
 					<h2>В набор входят:</h2>
-					<ul>
-						<li>Средства для умывания (50 мл)</li>
-						<li>Увладняющий крем (50 мл)</li>
-						<li>Крем для бритья (50 мл)</li>
-						<li>Крем после бритья, шампунь (50 мл)</li>
-						<li>Удобная кожаная косметичка</li>
+					<ul class="description__list">
+						<li class="description__elem">Средства для умывания (50 мл)</li>
+						<li class="description__elem">Увладняющий крем (50 мл)</li>
+						<li class="description__elem">Крем для бритья (50 мл)</li>
+						<li class="description__elem">Крем после бритья, шампунь (50 мл)</li>
+						<li class="description__elem">Удобная кожаная косметичка</li>
 					</ul>
 			</div>
 		</div>
@@ -77,19 +95,19 @@
 	</main>
 	<footer class="main-footer">
       <div class="container">
-        <section class="footer-contacts">
+        <section class="main-footer__contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
         </section>
-        <section class="footer-social">
+        <section class="main-footer__social">
           <span>Давайте дружить!</span>
           <a class="social-btn social-btn-vk" href="#">Vkontakte</a>
           <a class="social-btn social-btn-fb" href="#">Facebook</a>
           <a class="social-btn social-btn-inst" href="#">Instagram</a>
         </section>
-        <section class="footer-copyright">
+        <section class="main-footer__copyright">
           <span>Разработано:</span>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>

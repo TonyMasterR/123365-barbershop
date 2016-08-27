@@ -1,192 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
-		<header>
-		    <div class="container">
-					<div class="index-logo">
-						<a href="#">
-							<img src="http://placehold.it/200x200" alt="Barbershop">
-						</a>
-					</div>
-					<nav class="main-nav">
-						<ul class="main-nav__list">
-						  <li class="main-nav__item">
-                <a href="#">Информация</a>
-              </li>
-						  <li class="main-nav__item">
-                <a href="#">Новости</a>
-              </li>
-							<li class="main-nav__item">
-                <a href="#">Прайст-лист</a>
-              </li>
-							<li class="main-nav__item">
-                <a>Магазин</a>
-              </li>
-							<li class="main-nav__item">
-                <a href="#">Контакты</a>
-              </li>
-						</ul>
-					</nav>
-					<div class="user-block">
-			      <a class="login" href="#">Вход</a>
-			    </div>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Барбершоп</title>
+</head>
+<body>
+	<header>
+	    <div class="container">
+				<div class="index-logo">
+					<a href="#">
+						<img src="http://placehold.it/200x200" alt="Barbershop">
+					</a>
+				</div>
+				<nav class="main-nav">
+					<ul class="main-nav__list">
+					  <li class="main-nav__item">
+              <a href="#">Информация</a>
+            </li>
+					  <li class="main-nav__item">
+              <a href="#">Новости</a>
+            </li>
+						<li class="main-nav__item">
+              <a href="#">Прайст-лист</a>
+            </li>
+						<li class="main-nav__item">
+              <a>Магазин</a>
+            </li>
+						<li class="main-nav__item">
+              <a href="#">Контакты</a>
+            </li>
+					</ul>
+				</nav>
+				<div class="user-block">
+		      <a class="login" href="#">Вход</a>
+		    </div>
+		</div>
+	</header>
+	<main class="container">
+		<h2>Средства для ухода</h2>
+
+		<div class="breadcrumbs">
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+				<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Магазин</a></li>
+				<li class="breadcrumbs__item"><a class="breadcrumbs__link">Средства для ухода</a></li>
+			</ul>
+		</div>
+
+		<div class="main-content">
+			<div class="filter">
+        <form action="#">
+				<fieldset class="brands-filter">
+					<legend>производители</legend>
+
+						<label>
+              <input type="checkbox" checked><span>baxter of california</span>
+            </label>
+						<label>
+              <input type="checkbox"><span>mr natty</span>
+            </label>
+						<label>
+              <input type="checkbox" checked><span>suavecito</span>
+            </label>
+						<label>
+              <input type="checkbox"><span>malin+goetz</span>
+            </label>
+						<label>
+              <input type="checkbox"><span>murray's</span>
+            </label>
+						<label>
+              <input type="checkbox" checked><span>american crew</span>
+            </label>
+				</fieldset>
+
+				<fieldset class="goods-toolbar">
+					<legend>Группы товаров</legend>
+						<label>
+              <input type="radio" name="filter" value="1"><span>Бритвенные принадлежности</span>
+            </label>
+						<label>
+              <input type="radio" name="filter" value="2" checked><span>Средства для ухода</span>
+            </label>
+						<label>
+              <input type="radio" name="filter" value="3"><span>Аксессуары</span>
+            </label>
+				</fieldset>
+          <button type="submit" class="btn filter-btn">Показать</button>
+        </form>
 			</div>
-		</header>
-		<main class = "container">
-			<h2>Средства для ухода</h2>
 
-			<div class="breadcrumbs">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a>Средства для ухода</a></li>
-				</ul>
+
+
+			<div class="goods">
+				<div class="goods-item">
+					<a href="#">
+            <img src="http://placehold.it/200x200" alt="товар1">
+          </a>
+          <a href="#">
+            <span>Набор для путешествий</span>
+            <span>"baxter of california"</span>
+          </a>
+					<div class="order"><span class="order-price">2 900 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="goods-item">
+          <a href="#">
+            <img src="http://placehold.it/200x200" alt="товар2">
+          </a>
+          <a href="#">
+            <span>Увлажняющий кондиционер</span>
+						<span>"baxter of california"</span>
+          </a>
+					<div class="order"><span class="order-price">750 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="goods-item">
+          <a href="#">
+            <img src="http://placehold.it/200x200" alt="товар3">
+          </a>
+          <a href="#">
+            <span>Гель для волос</span>
+						<span>"suavecito"</span>
+          </a>
+					<div class="order"><span class="order-price">290 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="goods-item">
+          <a href="#">
+            <img src="http://placehold.it/200x200" alt="товар4">
+          </a>
+          <a href="#">
+            <span>Глина для укладки волос</span>
+						<span>"american crew"</span>
+          </a>
+					<div class="order"><span class="order-price">500 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="goods-item">
+          <a href="#">
+            <img src="http://placehold.it/200x200" alt="товар5">
+          </a>
+          <a href="#">
+            <span>Гель для волос</span>
+						<span>"american crew"</span>
+          </a>
+					<div class="order"><span class="order-price">300 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="goods-item">
+          <a href="#">
+            <img src="http://placehold.it/200x200" alt="товар6">
+          </a>
+          <a href="#">
+            <span>Набор для бритья</span>
+						<span>"baxter of california"</span>
+          </a>
+					<div class="order"><span class="order-price">3 900 руб.</span><a class="btn btn-order">Купить</a></div>
+				</div>
+
+				<div class="pagination">
+					<a class="pagination__item" href="#">1</a>
+					<a class="pagination__item">2</a>
+					<a class="pagination__item" href="#">3</a>
+					<a class="pagination__item" href="#">4</a>
+				</div>
 			</div>
 
-			<div class="main-content">
-					<div class="filter">
-            <form action="#">
-						<fieldset class="brands-filter">
-							<legend>производители</legend>
-
-								<label>
-                  <input type="checkbox" checked><span>baxter of california</span>
-                </label>
-								<label>
-                  <input type="checkbox"><span>mr natty</span>
-                </label>
-								<label>
-                  <input type="checkbox" checked><span>suavecito</span>
-                </label>
-								<label>
-                  <input type="checkbox"><span>malin+goetz</span>
-                </label>
-								<label>
-                  <input type="checkbox"><span>murray's</span>
-                </label>
-								<label>
-                  <input type="checkbox" checked><span>american crew</span>
-                </label>
-						</fieldset>
-
-						<fieldset class="goods-toolbar">
-							<legend>Группы товаров</legend>
-								<label>
-                  <input type="radio" name = "filter" value = "1"><span>Бритвенные принадлежности</span>
-                </label>
-								<label>
-                  <input type="radio" name = "filter" value = "2" checked><span>Средства для ухода</span>
-                </label>
-								<label>
-                  <input type="radio" name = "filter" value = "3"><span>Аксессуары</span>
-                </label>
-						</fieldset>
-              <button type = "submit" class = "btn filter-btn">Показать</button>
-            </form>
-					</div>
-
-
-
-					<div class = "goods">
-						<div class = "goods-item">
-							<a href = "#">
-                <img src="http://placehold.it/200x200" alt="товар1">
-              </a>
-              <a href = "#">
-                <span>Набор для путешествий</span>
-                <span>"baxter of california"</span>
-              </a>
-							<div class="order"><span class = "order-price">2 900 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="goods-item">
-              <a href="#">
-                <img src="http://placehold.it/200x200" alt="товар2">
-              </a>
-              <a href="#">
-                <span>Увлажняющий кондиционер</span>
-								<span>"baxter of california"</span>
-              </a>
-							<div class = "order"><span class = "order-price">750 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="goods-item">
-              <a href="#">
-                <img src="http://placehold.it/200x200" alt="товар3">
-              </a>
-              <a href="#">
-                <span>Гель для волос</span>
-								<span>"suavecito"</span>
-              </a>
-							<div class = "order"><span class = "order-price">290 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="goods-item">
-              <a href="#">
-                <img src="http://placehold.it/200x200" alt="товар4">
-              </a>
-              <a href="#">
-                <span>Глина для укладки волос</span>
-								<span>"american crew"</span>
-              </a>
-							<div class = "order"><span class = "order-price">500 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="goods-item">
-              <a href="#">
-                <img src="http://placehold.it/200x200" alt="товар5">
-              </a>
-              <a href="#">
-                <span>Гель для волос</span>
-								<span>"american crew"</span>
-              </a>
-							<div class = "order"><span class = "order-price">300 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="goods-item">
-              <a href="#">
-                <img src="http://placehold.it/200x200" alt="товар6">
-              </a>
-              <a href="#">
-                <span>Набор для бритья</span>
-								<span>"baxter of california"</span>
-              </a>
-							<div class = "order"><span class = "order-price">3 900 руб.</span><a class = "btn btn-order">Купить</a></div>
-						</div>
-
-						<div class="pagination">
-							<a href = "#">1</a>
-							<a>2</a>
-							<a href = "#">3</a>
-							<a href="#">4</a>
-						</div>
-					</div>
-
-			</div>
-		</main>
-		<footer class="main-footer">
-      <div class="container">
-        <section class="footer-contacts">
-          Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
-        </section>
-        <section class="footer-social">
-          <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Vkontakte</a>
-          <a class="social-btn social-btn-fb" href="#">Facebook</a>
-          <a class="social-btn social-btn-inst" href="#">Instagram</a>
-        </section>
-        <section class="footer-copyright">
-          <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
-      </div>
-    </footer>
-  </body>
+		</div>
+	</main>
+  <footer class="main-footer">
+    <div class="container">
+      <section class="main-footer__contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </section>
+      <section class="main-footer__social">
+        <span>Давайте дружить!</span>
+        <a class="social-btn social-btn-vk" href="#">Vkontakte</a>
+        <a class="social-btn social-btn-fb" href="#">Facebook</a>
+        <a class="social-btn social-btn-inst" href="#">Instagram</a>
+      </section>
+      <section class="main-footer__copyright">
+        <span>Разработано:</span>
+        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      </section>
+    </div>
+  </footer>
+</body>
 </html>
