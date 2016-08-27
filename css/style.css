@@ -6,10 +6,17 @@ body {
 	font-weight: bold;
 }
 h1 {
-	
+
 }
 h2 {
 	font-size: 30px;
 	line-height: 42px;
 }
-h3
+.main-header {
+	background-color: #000;
+}
+.main-nav .main-nav__link {
+	color: #fff;
+	font-size: 16px;
+	list-style: 20px;
+}
