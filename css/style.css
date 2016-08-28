@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	color: #000;
 	font-size: 14px;
@@ -5,18 +9,64 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 }
-h1 {
-
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+.btn {
+	width: 140px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: #000;
+}
+.btn[type="submit"] {
+	width: 300px;
 }
 h2 {
 	font-size: 30px;
 	line-height: 42px;
 }
 .main-header {
+	height: 72px;
 	background-color: #000;
+}
+.main-header .main-nav {
+	float: left;
+}
+.main-nav .main-nav__list {
+	list-style: none;
+}
+.main-nav .main-nav__item {
+	/*float: left;*/
+	display: inline-block;
 }
 .main-nav .main-nav__link {
 	color: #fff;
-	font-size: 16px;
-	list-style: 20px;
+	text-decoration: none;
+}
+.main-header .user-block {
+	float: right;
+}
+.main-header .login {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.main-footer {
+	color: #fff;
+	height: 193px;
+	background-image: url("../img/footer-background.png");
+}
+.main-footer section {
+	margin-top: 65px;
+	display: inline-block;
+	vertical-align: top;
 }
