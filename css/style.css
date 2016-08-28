@@ -60,6 +60,38 @@ h2 {
 
 
 
+.index-content .index-content-left {
+	width: 940px;
+}
+.index-content .index-content-right {
+	width: 940px;
+}
+.index-content .appoinment-form input {
+	padding: 15px;
+	width: 39px;
+	background-color: #f9f6f3;
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-footer {
 	color: #fff;
 	height: 193px;
