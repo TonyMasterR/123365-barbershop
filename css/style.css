@@ -37,6 +37,8 @@ body {
 	border: none;
 	outline: none;
 	background-color: #000;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-weight: bold;
 }
 
 h2 {
@@ -96,11 +98,14 @@ h2 {
 	margin: 0 auto;
 }
 .index-content .index-content-title {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .index-content .news-preview {
 	list-style: none;
-	margin-bottom: 46px;
+	margin-bottom: 25px;
+}
+.index-content .news-preview li:first-child {
+	margin-bottom: 20px;
 }
 .main {
 }
@@ -115,12 +120,22 @@ h2 {
 	float: left;
 	width: 380px;
 }
+
 .index-content .index-content-right {
 	float: right;
 	width: 300px;
 }
-.index-content .index-content-left .operating-time {
+.index-content .index-content-right p {
+	margin-bottom: 20px;
+}
+.index-content-right .btn.gallery-next {
+	margin-right: 0;
+}
+.index-content .index-content-left .adress {
 	margin-bottom: 30px;
+}
+.index-content .index-content-left .operating-time {
+	margin-bottom: 25px;
 }
 
 .index-content-right .gallery .gallery-content {
@@ -167,13 +182,26 @@ h2 {
 }
 .features .features-name {
 	text-align: center;
+	margin-bottom: 70px;
 }
 .features .features-item {
+	position: relative;
 	width: 30%;
 	min-width: 300px;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+}
+.features .features-item::before {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 45%;
+	top: 52px;
+	background-image: url("../img/rhomb.png");
+	background-repeat: no-repeat;
 }
 .features .features-item p {
 	font-size: 14px;
@@ -193,12 +221,14 @@ h2 {
 	color: #fff;
 }
 .main-footer .footer-social p {
+	margin-bottom: 10px;
 	text-align: center;
 }
 .main-footer .footer-copyright {
 	float: right;
 }
 .main-footer .footer-copyright p {
+	margin-bottom: 10px;
 	text-align: center;
 }
 .main-footer .footer-copyright a {
