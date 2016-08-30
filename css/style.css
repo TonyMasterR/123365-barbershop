@@ -10,14 +10,17 @@ body {
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	line-height: 24px;
 	font-weight: bold;
+	background-color: #000;
 }
 .main {
+	background-color: #000;
 	background-image: url("../img/tint.jpg");
+	background-position: 50% 0;
+	background-repeat: no-repeat;
 }
 .container {
 	width: 940px;
 	margin: 0 auto;
-	padding: 0;
 }
 .btn {
 	width: 140px;
@@ -41,23 +44,31 @@ h2 {
 .main-header {
 	height: 72px;
 	background-color: #000;
+	text-transform: uppercase;
 }
 .main-header .main-nav {
 	float: left;
+	height: 72px;
+	line-height: 72px;
 }
 .main-nav .main-nav__list {
 	list-style: none;
+	font-size: 0;
 }
 .main-nav .main-nav__item {
 	/*float: left;*/
 	display: inline-block;
+	margin: 0 30px 0 15px;
 }
 .main-nav .main-nav__link {
 	color: #fff;
+	font-size: 14px;
 	text-decoration: none;
 }
 .main-header .user-block {
 	float: right;
+	height: 72px;
+	line-height: 72px;
 }
 .main-header .login {
 	color: #fff;
@@ -72,16 +83,27 @@ h2 {
 
 
 .index-content {
+	width: 940px;
+	height: 420px;
+	margin-bottom: 35px;
 	background-image: url("../img/main-block__background.jpg");
+}
+.main {
+}
+.main .index-logo {
+	padding-top: 60px;
+	text-align: center;
 }
 .index-content .btn {
 	display: inline-block;
 }
 .index-content .index-content-left {
-	width: 940px;
+	float: left;
+	width: 50%;
 }
 .index-content .index-content-right {
-	width: 940px;
+	float: right;
+	width: 50%;
 }
 
 .index-content .appointment-form input:-moz-placeholder,
@@ -107,20 +129,23 @@ h2 {
 	height: 43px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.features {
+	text-align: center;
+}
+.features .features-name {
+	text-align: center;
+}
+.features .features-item {
+	width: 30%;
+	min-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	text-transform: uppercase;
+}
+.features .features-item p {
+	font-size: 14px;
+}
 
 
 
@@ -128,6 +153,21 @@ h2 {
 	color: #fff;
 	height: 193px;
 	background-image: url("../img/footer-background.png");
+}
+.main-footer .footer-contacts {
+	float: left;
+}
+.main-footer .footer-contacts a {
+	color: #fff;
+}
+.main-footer .footer-social p {
+	text-align: center;
+}
+.main-footer .footer-copyright {
+	float: right;
+}
+.main-footer .footer-copyright p {
+	text-align: center;
 }
 .main-footer section {
 	margin-top: 65px;
