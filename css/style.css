@@ -70,8 +70,20 @@ h2 {
 }
 .main-header .user-block {
 	float: right;
+	position: relative;
 	height: 72px;
 	line-height: 72px;
+}
+.main-header .user-block::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 18px;
+	height: 16px;
+	top: 27px;
+	right: 41px;
+	background-image: url("../img/icon-login.png");
+	background-repeat: no-repeat;
 }
 .main-header .login {
 	color: #fff;
