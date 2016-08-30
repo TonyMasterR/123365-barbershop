@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 body {
 	color: #000;
@@ -9,6 +11,9 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 }
+.main {
+	background-image: url("../img/tint.jpg");
+}
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -16,7 +21,10 @@ body {
 }
 .btn {
 	width: 140px;
-	height: 44px;
+	height: 43px;
+	display: block;
+	text-decoration: none;
+	line-height: 43px;
 	text-align: center;
 	color: #fff;
 	font-size: 14px;
@@ -25,9 +33,7 @@ body {
 	outline: none;
 	background-color: #000;
 }
-.btn[type="submit"] {
-	width: 300px;
-}
+
 h2 {
 	font-size: 30px;
 	line-height: 42px;
@@ -60,20 +66,46 @@ h2 {
 
 
 
+.features {
+	color: #f7f4f1;
+}
+
+
+.index-content {
+	background-image: url("../img/main-block__background.jpg");
+}
+.index-content .btn {
+	display: inline-block;
+}
 .index-content .index-content-left {
 	width: 940px;
 }
 .index-content .index-content-right {
 	width: 940px;
 }
-.index-content .appointment-form input {
-	padding: 15px;
-	width: 140x;
+
+.index-content .appointment-form input:-moz-placeholder,
+.index-content .appointment-form input::-moz-placeholder {
+	color: #000;
+}
+.index-content-right .appointment-form {
+	width: 300px;
+	height: 170px;
+}
+.index-content-right .appointment-form .appointment-form__input {
+	padding-left: 15px;
+	width: 125px;
+	height: 43px;
+	color: #000;
+	text-transform: uppercase;
 	background-color: #f9f6f3;
 	border: 2px solid #000;
 	color: #000;
 }
-
+.index-content-right .appointment-form .appointment-form__submit {
+	width: 300px;
+	height: 43px;
+}
 
 
 
